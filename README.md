@@ -155,6 +155,18 @@ subtract(input, new Set([30, 42, 20]));
 
 See also `intersection()`, `remove()`.
 
+### `syncFrom()`
+
+```ts
+syncFrom(
+  prev: ReadonlySet<K>,
+  next: ReadonlySet<K>,
+): ReadonlySet<K>
+```
+
+Returns `prev` when its elements are equal to elements in `next` (order does
+not matter). Otherwise, returns `next`.
+
 ### `toggle()`
 
 Toggle an item in set
