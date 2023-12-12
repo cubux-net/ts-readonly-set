@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.0 (DEV)
+## 1.1.0 (2023-12-12)
 
 - Add: `suncFrom(prev, next)`.
 
