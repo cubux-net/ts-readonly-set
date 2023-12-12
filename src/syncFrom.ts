@@ -9,7 +9,7 @@ function syncFrom<K>(prev: ReadonlySet<K>, next: ReadonlySet<K>) {
   if (
     prev !== next &&
     prev.size === next.size &&
-    Array.from(prev).every(v => next.has(v))
+    Array.from(prev).every((v) => next.has(v))
   ) {
     return prev;
   }
